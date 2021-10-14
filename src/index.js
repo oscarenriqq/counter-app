@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Counter } from './Counter';
+import { Title } from './Title';
 
 ReactDOM.render(
-  <Counter />,
+  <div className="container">
+    <Title />
+    <Counter />
+  </div>,
   document.getElementById('root')
 );
